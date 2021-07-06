@@ -1,0 +1,13 @@
+{% extends "list.html" %}
+{% block content %}
+    <div>
+        <form action="" method="POST">
+            {% csrf_token %}
+            <table>
+            {{ form.as_table }}
+        </table>
+            <button type="submit">저장</button>
+        </form>
+   </div>
+
+{% endblock content %}

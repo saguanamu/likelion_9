@@ -1,0 +1,10 @@
+{% extends 'list.html' %}
+
+{% block content %}
+<h2>글 작성하기</h2>
+<form method='POST'>
+    {% csrf_token %}
+    {{form.as_p}}
+    <button type='submit'>글 작성</button>
+</form>
+{% endblock %}

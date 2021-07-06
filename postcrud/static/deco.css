@@ -1,0 +1,61 @@
+body{
+    background-color: #fafafa;
+}
+
+p {
+    font-family: 'Nanum Gothic Coding', monospace;
+}
+
+h3 {
+    font-family: 'Nanum Gothic Coding', monospace;
+}
+
+a{
+    font-family: 'Nanum Gothic Coding', monospace;
+    color: black;
+}
+
+a:visited{
+    color: black;
+    
+}
+
+a:hover{
+    text-decoration:none;
+    color: 646EFF;
+}
+
+#something{
+    color: F08080;
+}
+
+#something:hover{
+    color: 646EFF;
+}
+
+#blogtitle{
+    font-family: 'Oswald', sans-serif;
+    color: 646EFF;
+}
+
+.new{
+    float: right;
+    margin-right: 200px;
+}
+
+.container{
+    width: 2000px;
+}
+
+
+.card-body{
+    padding: 30px;
+}
+
+#postcontent{
+    margin-left:10px;
+}
+
+.bt{
+    float:right;
+}
